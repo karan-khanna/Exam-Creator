@@ -4,4 +4,4 @@ A web application which offers the following functions :
 2. Taking the Exam.
 3. Display of results.
 
-The application is dynamic and interactive!
+The application offers CRUD operations.Also, It is dynamic and interactive!
