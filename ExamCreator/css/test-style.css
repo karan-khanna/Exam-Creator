@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+#quesBody
+{
+    margin: 8%;
+}
+#navigation table tr td button
+{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+    
+}
+table
+{   
+   table-layout: fixed;
+   
+    width: 100%;
+}
+td{
+  
+    text-align:center;
+    
+}
+
+.rightAnswer
+{
+    background-color: greenyellow;
+}

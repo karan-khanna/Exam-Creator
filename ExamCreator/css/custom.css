@@ -1,0 +1,78 @@
+.rightAnswer
+{
+    background-color: greenyellow;
+}
+#optionList
+{
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    display: none;
+    z-index: 1;
+    background-color: aliceblue;
+    list-style-type: none;
+       
+}
+
+ul li:hover
+{    
+    background-color: cadetblue;
+    cursor: pointer;
+}
+button
+{
+    width:100%;
+}
+table
+{
+    table-layout: fixed;
+    margin: 10px;
+    width: 100%;
+}
+input
+{
+    width:95%;
+}
+td{
+  
+    text-align:center;
+    
+}
+.operationStyle:hover
+{
+    cursor: pointer;
+    background-color: aqua;
+    
+    
+}
+
+.selectedRow
+{
+    background-color: red;
+}
+
+.mainbuttons
+{  border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+    background-color: darksalmon;
+}
+.mainbuttons:hover
+{
+    background-color: brown;
+}
+
+body
+{
+ background-color: lemonchiffon;
+}
+
+thead
+{
+    background-color: darksalmon;
+    font-family: 
+}
+#tbody
+{
+    background-color: bisque;
+}

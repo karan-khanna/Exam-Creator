@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page</title>
+    <link rel='stylesheet' type="text/css" href="css/test-style.css"/>
+    
+    <script src="js/item.js"></script>
+    <script src="js/operations.js"></script>
+    <script src="js/test-controller.js"></script>
+</head>
+<body>
+<h1>WELCOME TO ONLINE TEST</h1>
+<hr/>
+<div id='quesBody'>
+  
+   <table>
+   <tr>
+       <td><h3>Question No. <span id='quesNo'></span></h3></td>
+       <td><h1><span id='minutesLeft'></span>:<span id='secondsLeft'></span></h1></td>
+   </tr>
+    <tr>
+    <td><h4>Question : <span id='ques'></span></h4></td>
+    <td><h4>Marks :<span id='marks'></span></h4></td>
+    </tr>
+    </table>
+       <ol>
+        <li><input type="radio" name='choice' class='options'><span id='option1'></span></li>
+        <li><input type="radio" name='choice' class='options'><span id='option2'></span></li>
+        <li><input type="radio" name='choice' class='options'><span id='option3'></span></li>
+        <li><input type="radio" name='choice' class='options'><span id='option4'></span></li>
+        <li style="display:none"><input type="radio" name='choice' class='options' id='hiddenOption'><span></span></li>
+    </ol>
+    <br/>
+    <div id='navigation'>
+   <table style="table-layout: fixed;">
+       <tr>
+           <td><button id='prev'>PREVIOUS</button></td>
+           <td><button id='submit'>SUBMIT</button></td>
+           <td><button id='next'>NEXT</button></td>
+       </tr>
+   </table>
+    
+</div>
+</div>
+
+</body>
+</html>
